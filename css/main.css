@@ -1,0 +1,33 @@
+#frame {
+    width:960px;
+    height: 720px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#background {
+    margin: 0;
+    width: 5760px;
+    height: 720px;
+    background-image: url("../images/bg.png");
+    background-size: 5760px 720px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+
+#player {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-image: url("../images/cat.png");
+    background-repeat: no-repeat;
+    background-size: 180px 97px;
+    width: 90px;
+    height: 97px;
+    overflow: hidden;
+    background-position: 0 0;
+    /*width: 184px; height: 199px;*/
+    /*.sprite.cat1_b_png {background-position: -184px 0; width: 177px; height: 218px;}*/
+
+}
